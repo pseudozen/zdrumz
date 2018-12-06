@@ -1,11 +1,16 @@
 [Eagle]
-Version="09 01 02"
+Version="09 01 03"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibraryUrn="urn:adsk.eagle:library:229"
+UsedLibraryUrn="urn:adsk.eagle:library:3681061"
+UsedLibrary="C:/Users/PCPC/Dropbox/dev/Eagle/ext_libraries/Maxim_By_element14_Batch_1.lbr"
+UsedLibrary="C:/Users/PCPC/Dropbox/dev/Eagle/ext_libraries/SDS-50J.lbr"
+UsedLibrary="C:/Users/PCPC/Dropbox/dev/Eagle/ext_libraries/con-molex.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/19inch.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/40xx.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/41xx.lbr"
@@ -352,8 +357,6 @@ UsedLibrary="C:/Users/PCPC/Dropbox/Tools/Eagle/Libraries/microchip-update-2.lbr"
 UsedLibrary="C:/Users/PCPC/Dropbox/Tools/Eagle/Libraries/mini_din.lbr"
 UsedLibrary="C:/Users/PCPC/Dropbox/Tools/Eagle/Libraries/teensy.lbr"
 UsedLibrary="C:/Users/PCPC/Dropbox/Tools/Eagle/Libraries/teensypp.lbr"
-UsedLibrary="C:/Users/PCPC/Dropbox/dev/Eagle/ext_libraries/Maxim_By_element14_Batch_1.lbr"
-UsedLibrary="C:/Users/PCPC/Dropbox/dev/Eagle/ext_libraries/con-molex.lbr"
 UsedLibrary="C:/Users/PCPC/Dropbox/dev/Eagle/ext_libraries/Adafruit-Eagle-Library/adafruit.lbr"
 UsedLibrary="C:/Users/PCPC/Dropbox/dev/Eagle/ext_libraries/cherrymx-eagle/cherrymx.lbr"
 UsedLibrary="C:/Users/PCPC/Dropbox/dev/Eagle/ext_libraries/SparkFun-Eagle-Libraries/SparkFun-Boards.lbr"
@@ -365,12 +368,13 @@ UsedLibrary="C:/dev/repos/infrastructure/vco-eagle/libraries/VCO - Display Board
 UsedLibrary="C:/dev/repos/infrastructure/vco-eagle/libraries/VCO - Pod Controller v2.0.lbr"
 UsedLibrary="C:/dev/repos/infrastructure/vco-eagle/libraries/VCO - Location Controller v2.0.lbr"
 UsedLibrary="C:/dev/repos/infrastructure/vco-eagle/libraries/VCO - Pod Daughterboard v2.0.lbr"
+UsedLibraryUrn="urn:adsk.eagle:library:4288890"
 
 [Win_1]
-Type="Board Editor"
+Type="Schematic Editor"
 Number=2
-File="drum_controller.brd"
-View="-19.6955 -103.948 125.084 126.471"
+File="D:/Google Drive/Research & Development/vP2Light/Hardware specs/v2.0/7 - Review of final files, Matt Sept 8 email/VCO_DisplayBoard_Part#17112_v2_FileSuite (1)/VCO_DisplayBoard_Part#17112_v2.sch"
+View="-3.1828 -2.34768 239.664 185.466"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -386,14 +390,14 @@ DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
 DimensionExtLengths=" 1.27 2.54 1 2 3 0"
 DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
 SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
-WireBend=1
-WireBendSet=0
+WireBend=0
+WireBendSet=31
 WireCap=1
 MiterStyle=1
 PadShape=0
 ViaShape=1
 PolygonPour=0
-PolygonRank=1
+PolygonRank=0
 PolygonThermals=1
 PolygonOrphans=0
 TextRatio=8
@@ -408,7 +412,9 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=1
+Layer=91
+Views=" 1: -3.1828 -2.34768 239.664 185.466"
+Sheet="1"
 
 [Win_2]
 Type="Control Panel"
